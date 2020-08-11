@@ -1,0 +1,109 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    /* background: url('../images/repeated-square.png'); */
+}
+
+.contenedor{
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;       /*para centrar */
+    overflow: hidden;
+}
+/* -------------------------------------------------navbar--------------------------------------------- */
+
+header nav .container .navbar-brand img{
+    margin-left: -100px;
+}
+
+/* -----------------------------------------------fin-navbar--------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ Redes Sociales------------------------------ */
+
+
+
+footer .redes{
+    background-color: #eeedec;
+    padding: 30px 0;
+}
+
+footer .redes .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes a{
+    color: black;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 25px;
+    background: #eeedec;
+    margin: 0 20px;
+
+}
+
+
+
+footer .redes h2{
+    text-align: center;
+    color: #FFD626;
+}
+
+footer .contacto .contenedor .titulo{
+    margin-bottom: 50px;
+}
+
+footer .redes .face:hover{
+    background-color: #3b5998;
+}
+
+footer .redes .whats:hover{
+    background-color: #25d366
+}
+
+footer .redes .insta:hover{
+    background-color: #e1306c
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------media Queries------------------------------------------------------ */
+
+@media screen and (max-width: 800px){
+    header nav .container .navbar-brand img{
+        margin-left: 0;
+    }
+}

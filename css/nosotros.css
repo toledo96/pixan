@@ -1,0 +1,141 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    /* background: url('../images/leaves.png'); */
+}
+
+.contenedor{
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;       /*para centrar */
+    overflow: hidden;
+}
+/* -------------------------------------------------navbar--------------------------------------------- */
+
+header nav .container .navbar-brand img{
+    margin-left: -100px;
+}
+
+/* -----------------------------------------------fin-navbar--------------------------------------------- */
+
+
+
+
+
+
+/* -------------------------------------------------Equipo--------------------------------------------- */
+
+
+
+.team .fondo .container .titulo{
+    font-size: 34px;
+    color: black;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team .fondo .container .row .col-md-6 .imagen{
+    text-align: center;
+}
+
+.team .fondo .container .row .col-md-6 .imagen img{
+    border-radius: 80px;
+}
+
+.team .fondo .container .row .col-md-6 .descripcion{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+/* -----------------------------------------------Fin-Equipo--------------------------------------------- */
+
+
+
+
+
+
+
+/* ------------------------------ Redes Sociales------------------------------ */
+
+
+
+footer .redes{
+    background-color: #eeedec;
+    padding: 30px 0;
+}
+
+footer .redes .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes a{
+    color: black;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 25px;
+    background: #eeedec;
+    margin: 0 20px;
+
+}
+
+
+
+footer .redes h2{
+    text-align: center;
+    color: #FFD626;
+}
+
+footer .contacto .contenedor .titulo{
+    margin-bottom: 50px;
+}
+
+footer .redes .face:hover{
+    background-color: #3b5998;
+}
+
+footer .redes .whats:hover{
+    background-color: #25d366
+}
+
+footer .redes .insta:hover{
+    background-color: #e1306c
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------media Queries------------------------------------------------------ */
+
+@media screen and (max-width: 800px){
+    header nav .container .navbar-brand img{
+        margin-left: 0;
+    }
+}
