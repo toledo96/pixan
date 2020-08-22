@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,600&display=swap">
     <script src="js/index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>PIIXAN</title>
     <link rel="icon" href="images/logo3.ico" type="image/x-icon">
 </head>
@@ -33,7 +34,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="/index.html">Inicio
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -61,8 +62,10 @@
             <div class="card-body">
                 <div style="text-align: center;">
                     <p>
+                       <b>
                         Somos un red chiapaneca de profesionales de la salud y educación comprometidos <br>
                         con el bienestar y desarrollo humano.
+                       </b>
                     </p>
                 </div>
             </div>
@@ -157,37 +160,31 @@
 
     <div style="width: 500px; height: 50px;background-color: #ed6c7e; float: right;margin-top: 10px;"></div>
 
-    <section class="experiencias">
+    <section class="experiencias mb-5">
         <div class="fondo">
             <div class="container">
                 <div class="titulo"><br>
                     <h2 style="margin-top: 50px;">Experiencias</h2>
                 </div>
 
-                <div class="row">
+                <div class="row mb-5">
                     <div class="col-md-4">
                         <div class="imagen">
                             <img src="images/d1.jpeg" width="300" height="300" alt="">
                         </div>
-                        <div class="descripcion">
-                            <p class="nombre">Nombre</p>
-                        </div>
+
                     </div>
                     <div class="col-md-4">
                         <div class="imagen">
                             <img src="images/d2.jpeg" width="300" height="300" alt="">
                         </div>
-                        <div class="descripcion">
-                            <p class="nombre">Nombre</p>
-                        </div>
+
                     </div>
                     <div class="col-md-4">
                         <div class="imagen">
                             <img src="images/d3.jpeg" width="300" height="300" alt="">
                         </div>
-                        <div class="descripcion">
-                            <p class="nombre">Nombre</p>
-                        </div>
+
                     </div>
                 </div>
 
@@ -197,59 +194,64 @@
                         <div class="imagen">
                             <img src="images/d4.jpeg" width="300" height="300" alt="">
                         </div>
-                        <div class="descripcion">
-                            <p class="nombre">Nombre</p>
-                        </div>
+
                     </div>
                     <div class="col-md-4">
                         <div class="imagen">
-                            <img src="images/d4.jpeg" width="300" height="300" alt="">
+                            <img src="images/d5.jpeg" width="300" height="300" alt="">
                         </div>
-                        <div class="descripcion">
-                            <p class="nombre">Nombre</p>
-                        </div>
+
                     </div>
                     <div class="col-md-4">
                         <div class="imagen">
-                            <img src="images/d4.jpeg" width="300" height="300" alt="">
+                            <img src="images/d6.jpeg" width="300" height="300" alt="">
                         </div>
-                        <div class="descripcion">
-                            <p class="nombre">Nombre</p>
-                        </div>
+
                     </div>
                 </div>
             </div>
     </section>
 
-    <div style="width: 50%; height: 50px;background-color: #f3f1c0; float;margin-top: 10px;"></div>
+
+
+    <section class="redes">
+        <h2>Encuentranos en nuestras redes sociales</h2>
+        <div class="contenedor">
+            <a class="face"  target="_blank" href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a class="whats"  target="_blank"
+                href="https://api.whatsapp.com/send?phone=5219613044959&text=Hola!%20Estamos%20a%20sus%20ordenes"><i
+                    class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a class="insta"  target="_blank" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </section>
 
     <footer>
-
-        <section id="contacto" class="contacto">
-            <div class="fondo">
-                <div class="contenedor">
-                    <h3 class="titulo">Contactanos</h3>
-                    <form class="formulario" action="">
-                        <input type="text" placeholder="Nombre" name="nombre">
-                        <input type="text" placeholder="Correo" name="correo">
-                        <textarea name="mensaje" placeholder="Mensaje:"></textarea>
-                        <input class="boton" type="button" onclick="Enviar()" type="submit" value="Enviar">
-                    </form>
+        
+        <div class="svg-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="#99ced4" fill-opacity="1" d="M0,128L30,128C60,128,120,128,180,160C240,192,300,256,360,256C420,256,480,192,540,160C600,128,660,128,720,149.3C780,171,840,213,900,202.7C960,192,1020,128,1080,90.7C1140,53,1200,43,1260,42.7C1320,43,1380,53,1410,58.7L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+            </svg>
+        </div>
+        
+        <div class="footer">
+            <div class="container footer">
+                <div class="row">
+                    <div class="col-md-6 caja-footer text-center">
+                        <!-- aqui va el logo -->
+                        <img src="images/logo4.png" class="image-fluid" width="150px" alt="">
+                        <h2>PIIXAN</h2>
+                    </div>
+                    <div class="col-md-6 caja-footer">
+                       <p><b>CONTACTANOS</b></p>
+                       <p><i class="fa fa-map-marker" aria-hidden="true"></i> PIIXAN, Tuxtla Gutierréz <br> Av. Belisario Dominguez No.330 Colonia José Castilo Tielemans </p>
+                       <p><i class="fa fa-phone" aria-hidden="true"></i> +52 1 961 304 4959 </p>
+                       <p><i class="fa fa-envelope-o" aria-hidden="true"></i> atencionintegralpiixan@gmail.com</p>
+                    </div>
+    
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- style="text-align: center;color: #FFD626;" -->
-        <section class="redes">
-            <div class="contenedor">
-                <a class="face" href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                <a class="whats"
-                    href="https://api.whatsapp.com/send?phone=5219612415437&text=Hola!%20Estamos%20a%20sus%20ordenes"><i
-                        class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                <a class="insta" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-
-        </section>
 
     </footer>
 

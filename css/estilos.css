@@ -227,17 +227,17 @@ footer .contacto .formulario .boton:hover{
 
 
 
-footer .redes{
-    background-color: #eeedec;
+ .redes{
+    background-color: #e5e5e5;
     padding: 30px 0;
 }
 
-footer .redes .contenedor {
+ .redes .contenedor {
     display: flex;
     justify-content: center;
 }
 
-footer .redes a{
+ .redes a{
     color: black;
     text-align: center;
     width: 100px;
@@ -245,40 +245,54 @@ footer .redes a{
     padding: 10px 0;
     border-radius: 5px;
     font-size: 25px;
-    background: #eeedec;
+    background: #e5e5e5;
     margin: 0 20px;
 
 }
 
 
 
-footer .redes h2{
+ .redes h2{
     text-align: center;
-    color: #FFD626;
+    color: black
 }
 
-footer .contacto .contenedor .titulo{
+ .contacto .contenedor .titulo{
     margin-bottom: 50px;
 }
 
-footer .redes .face:hover{
+ .redes .face:hover{
     background-color: #3b5998;
 }
 
-footer .redes .whats:hover{
+ .redes .whats:hover{
     background-color: #25d366
 }
 
-footer .redes .insta:hover{
+ .redes .insta:hover{
     background-color: #e1306c
 }
 
 
+.svg-wrapper{
+  display:block;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: rgba(0,0,0,0.1)
+}
+.svg-wrapper svg{
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100%;
+}
 
-
-
-
-
+.footer{
+    background-color: #99ced4;   
+    color: white;
+}
 
 
 
