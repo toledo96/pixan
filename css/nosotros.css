@@ -23,10 +23,20 @@ header nav .container .navbar-brand img{
     margin-left: -100px;
 }
 
+nav{
+    background-color: #99CED4;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
 /* -----------------------------------------------fin-navbar--------------------------------------------- */
 
 
-
+.div1{
+    width: 50%; height: 50px;background-color: #f3f1c0; float;margin-top: 30px;
+}
 
 
 
@@ -40,6 +50,7 @@ header nav .container .navbar-brand img{
     margin-top: 1px;
     margin-bottom: 50px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .team .fondo .container .row .col-md-6 .imagen{
@@ -51,12 +62,23 @@ header nav .container .navbar-brand img{
 }
 
 .team .fondo .container .row .col-md-6 .descripcion{
+    margin-top: 20px;
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 30px;
 }
 
+.team .lista_div{
+    margin-top: 50px;
+}
 
+.team .lista{
+    list-style: none;
+}
+
+.team .datos{
+    text-align: justify;
+    display:inline-block;
+}
 
 /* -----------------------------------------------Fin-Equipo--------------------------------------------- */
 
@@ -70,51 +92,6 @@ header nav .container .navbar-brand img{
 
 
 
-footer .redes{
-    background-color: #eeedec;
-    padding: 30px 0;
-}
-
-footer .redes .contenedor {
-    display: flex;
-    justify-content: center;
-}
-
-footer .redes a{
-    color: black;
-    text-align: center;
-    width: 100px;
-    display: block;
-    padding: 10px 0;
-    border-radius: 5px;
-    font-size: 25px;
-    background: #eeedec;
-    margin: 0 20px;
-
-}
-
-
-
-footer .redes h2{
-    text-align: center;
-    color: #FFD626;
-}
-
-footer .contacto .contenedor .titulo{
-    margin-bottom: 50px;
-}
-
-footer .redes .face:hover{
-    background-color: #3b5998;
-}
-
-footer .redes .whats:hover{
-    background-color: #25d366
-}
-
-footer .redes .insta:hover{
-    background-color: #e1306c
-}
 
 
 
@@ -137,7 +114,7 @@ footer .redes .insta:hover{
   
   .footer{
       background-color: #99ced4;   
-      color: white;
+      color: black;
   }
   
 

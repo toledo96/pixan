@@ -17,13 +17,14 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>PIIXAN</title>
     <link rel="icon" href="images/logo3.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 
 <body>
-
+    <!-- style="background-color: #99CED4;" -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color: #99CED4;">
+        <nav class="navbar navbar-expand-lg navbar-dark static-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img class="logo" src="images/logo4.png" width="100" height="100" alt="">
@@ -54,39 +55,43 @@
         </nav>
     </header>
 
-    <img src="images/camino.jpeg" width="100%" height="500px" style="border-radius: 20px;" alt="">
+    <!-- style="margin-top: 20px;margin-bottom: 20px;" -->
+
+    <img src="images/camino.jpeg" class="img-fluid" width="100%" height="500px" alt="">
 
 
-    <div class="container" style="margin-top: 20px;margin-bottom: 20px;">
-        <div class="card" style="background-color: #dcedc8;">
-            <div class="card-body">
-                <div style="text-align: center;">
+    <section class="container mt-4 mb-4 inicio">
+
+        <div class="card card-inicio">
+            <div class="card-body" data-aos="flip-left">
+                <div class="text-center">
                     <p>
-                       <b>
-                        Somos un red chiapaneca de profesionales de la salud y educación comprometidos <br>
-                        con el bienestar y desarrollo humano.
-                       </b>
+                        <b>
+                            Somos un red chiapaneca de profesionales de la salud y educación comprometidos <br>
+                            con el bienestar y desarrollo humano.
+                        </b>
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid" style="margin-top: 20px;">
+        <div class="container-fluid mt-4">
             <div class="row">
                 <div class="col-md-6">
 
-                    <div class="card" style="margin-top: 10px;margin-bottom: 40px;padding: 20px;">
+                    <div class="card" style="margin-top: 10px;margin-bottom: 40px;padding: 20px;" data-aos="flip-left">
                         <div class="card-boy">
                             <h5 style="text-align: center;" class="card-title">Misión</h5>
-                            Acompañarte para que encuentres soluciones accesibles, personalizadas y
-                            específicas
-                            tus necesidades de acuerdo a la situación que vives de la mano de la Medicina Alternativa,
-                            la
-                            Psicoterapia y la Capacitación.
+                            <p> Acompañarte para que encuentres soluciones accesibles, personalizadas y
+                                específicas a
+                                tus necesidades de acuerdo a la situación que vives de la mano de la Medicina
+                                Alternativa,
+                                la
+                                Psicoterapia y la Capacitación.</p>
                         </div>
                     </div>
 
-                    <div class="card" style="margin-bottom: 40px;padding: 20px;">
+                    <div class="card" style="margin-bottom: 40px;padding: 20px;" data-aos="flip-left">
                         <div class="card-boy">
                             <h5 style="text-align: center;" class="card-title">Visión</h5>
                             Ser la empresa líder en servicios de Medicina Alternativa, Psicoterapia y Capacitación
@@ -95,28 +100,26 @@
                         </div>
                     </div>
 
-                    <div class="card" style="margin-bottom: 40px;padding: 20px;">
+                    <div class="card" style="margin-bottom: 40px;padding: 20px;" data-aos="flip-left">
                         <div class="card-boy">
                             <h5 style="text-align: center;" class="card-title">Valores</h5>
-                            Acompañarte para que encuentres soluciones accesibles, personalizadas y
-                            específicas
-                            tus necesidades de acuerdo a la situación que vives de la mano de la Medicina Alternativa,
-                            la
-                            Psicoterapia y la Capacitación.
+                            <p>Honestidad, Confianza, Confidencialidad, Compromiso, Respeto, Responsabilidad, Dinamismo,
+                                Sinergia, Altruismo, trabajo Colaborativo.
+                            </p>
                         </div>
                     </div>
-
                 </div>
-                <div class="col-md-6" style="text-align: center;">
-                    <img src="images/arbol.jpeg" width="400px" height="640px" alt="">
+
+                <div class="col-md-6 text-center">
+                    <img src="images/arbol.jpeg" class="img-fluid" width="90%" alt="" data-aos="flip-left">
                 </div>
             </div>
 
         </div>
-    </div>
+    </section>
 
 
-    <div style="width: 200px; height: 50px;background-color: #83d5cf;margin-top: 10px;"></div>
+    <div class="div1"></div>
 
 
     <section id="servicios" class="servicios">
@@ -130,7 +133,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="imagen">
-                            <img src="images/alternativa.jpg" width="300" height="300" alt="">
+                            <img src="images/alternativa.jpg" width="300" height="300" alt="" data-aos="flip-right">
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Medicina Alternativa</p>
@@ -138,7 +141,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="imagen">
-                            <img src="images/psico3.jpg" width="300" height="300" alt="">
+                            <img src="images/psico3.jpg" width="300" height="300" alt="" data-aos="flip-right">
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Salud Mental</p>
@@ -146,7 +149,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="imagen">
-                            <img src="images/serv-13.jpeg" width="300" height="300" alt="">
+                            <img src="images/serv-13.jpeg" width="300" height="300" alt="" data-aos="flip-right">
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Capacitación</p>
@@ -158,53 +161,53 @@
             </div>
     </section>
 
-    <div style="width: 500px; height: 50px;background-color: #ed6c7e; float: right;margin-top: 10px;"></div>
+    <div class="div2"></div>
 
     <section class="experiencias mb-5">
         <div class="fondo">
             <div class="container">
                 <div class="titulo"><br>
-                    <h2 style="margin-top: 50px;">Experiencias</h2>
+                    <h2 class="mt-5">Experiencias</h2>
                 </div>
 
                 <div class="row mb-5">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-5">
                         <div class="imagen">
-                            <img src="images/d1.jpeg" width="300" height="300" alt="">
+                            <img src="images/d1.jpeg" width="300" height="300" alt="" data-aos="flip-up">
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-5">
                         <div class="imagen">
-                            <img src="images/d2.jpeg" width="300" height="300" alt="">
+                            <img src="images/d2.jpeg" width="300" height="300" alt="" data-aos="flip-up">
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-5">
                         <div class="imagen">
-                            <img src="images/d3.jpeg" width="300" height="300" alt="">
+                            <img src="images/d3.jpeg" width="300" height="300" alt="" data-aos="flip-up">
                         </div>
 
                     </div>
                 </div>
 
 
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="row mt-5">
+                    <div class="col-md-4 mt-5">
                         <div class="imagen">
-                            <img src="images/d4.jpeg" width="300" height="300" alt="">
+                            <img src="images/d4.jpeg" width="300" height="300" alt="" data-aos="flip-down">
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-5">
                         <div class="imagen">
-                            <img src="images/d5.jpeg" width="300" height="300" alt="">
+                            <img src="images/d5.jpeg" width="300" height="300" alt="" data-aos="flip-down">
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-5">
                         <div class="imagen">
-                            <img src="images/d6.jpeg" width="300" height="300" alt="">
+                            <img src="images/d6.jpeg" width="300" height="300" alt="" data-aos="flip-down">
                         </div>
 
                     </div>
@@ -214,25 +217,29 @@
 
 
 
-    <section class="redes">
+    <section class="redes" data-aos="zoom-in">
         <h2>Encuentranos en nuestras redes sociales</h2>
-        <div class="contenedor">
-            <a class="face"  target="_blank" href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a class="whats"  target="_blank"
+        <div class="contenedor" >
+            <a  target="_blank" class="face" href="https://www.facebook.com/centro.atencionpiixan/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a   target="_blank" class="face"
                 href="https://api.whatsapp.com/send?phone=5219613044959&text=Hola!%20Estamos%20a%20sus%20ordenes"><i
                     class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            <a class="insta"  target="_blank" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a  target="_blank" class="face" href="https://www.youtube.com/channel/UCzORzXoUqsK1qoAlNy44MdQ"><i class="fa fa-youtube" aria-hidden="true"></i></a>
         </div>
     </section>
 
-    <footer>
-        
-        <div class="svg-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
-                <path fill="#99ced4" fill-opacity="1" d="M0,128L30,128C60,128,120,128,180,160C240,192,300,256,360,256C420,256,480,192,540,160C600,128,660,128,720,149.3C780,171,840,213,900,202.7C960,192,1020,128,1080,90.7C1140,53,1200,43,1260,42.7C1320,43,1380,53,1410,58.7L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
-            </svg>
+    <footer data-aos="zoom-in">
+
+        <div >
+            <div class="svg-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                    <path fill="#99ced4" fill-opacity="1"
+                        d="M0,128L30,128C60,128,120,128,180,160C240,192,300,256,360,256C420,256,480,192,540,160C600,128,660,128,720,149.3C780,171,840,213,900,202.7C960,192,1020,128,1080,90.7C1140,53,1200,43,1260,42.7C1320,43,1380,53,1410,58.7L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
         </div>
-        
+
         <div class="footer">
             <div class="container footer">
                 <div class="row">
@@ -242,12 +249,12 @@
                         <h2>PIIXAN</h2>
                     </div>
                     <div class="col-md-6 caja-footer">
-                       <p><b>CONTACTANOS</b></p>
-                       <p><i class="fa fa-map-marker" aria-hidden="true"></i> PIIXAN, Tuxtla Gutierréz <br> Av. Belisario Dominguez No.330 Colonia José Castillo Tielemans </p>
-                       <p><i class="fa fa-phone" aria-hidden="true"></i> +52 1 961 304 4959 </p>
-                       <p><i class="fa fa-envelope-o" aria-hidden="true"></i> atencionintegralpiixan@gmail.com</p>
-                    </div>
-    
+                        <p><b>CONTACTANOS</b></p>
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> PIIXAN, Tuxtla Gutierréz <br> Calle Belisario Dominguez No.330 Colonia José Castillo Tielemans </p>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> 961 304 4959 </p>
+                        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> atencionintegralpiixan@gmail.com</p>
+                     </div>
+
                 </div>
             </div>
         </div>
@@ -269,6 +276,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 </body>
 
 </html>

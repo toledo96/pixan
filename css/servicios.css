@@ -8,7 +8,7 @@ body{
     background-color: white;
     font-family: "Open Sans",sans-serif;
     font-size: 18px;
-    /* background: url('../images/repeated-square.png'); */
+    /* background: url('../images/flores.png'); */
 }
 
 .contenedor{
@@ -21,6 +21,14 @@ body{
 
 header nav .container .navbar-brand img{
     margin-left: -100px;
+}
+
+nav{
+    background-color: #99CED4;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: black;
 }
 
 /* -----------------------------------------------fin-navbar--------------------------------------------- */
@@ -43,7 +51,7 @@ header nav .container .navbar-brand img{
   
   .footer{
       background-color: #99ced4;   
-      color: white;
+      color: black;
   }
   
 
@@ -80,41 +88,103 @@ footer .redes a{
 
 }
 
+.borde{
+    border-radius: 20px;
+}
+
+.div1{
+    padding: 10px;background-color:#D3FFF9;
+}
+
+.psicoterapia{
+    margin-bottom: 100px;margin-top: 20px;
+}
+
+.psicoterapia .secciones .primera{
+    margin-bottom: 220px;
+}
+
+.psicoterapia .secciones .segunda{
+    margin-top: -200px;
+}
+
+.psicoterapia .duracion{
+    font-size: 30px;
+}
 
 
-footer .redes h2{
+/* ------------------------------------------------- Evaluación ------------------------------------------------- */
+
+.evaluacion{
+    margin-bottom: 100px;
+}
+
+.evaluacion .seccion-evaluacion{
+    margin-bottom: 20px;
+}
+
+.evaluacion .seccion-evaluacion .titulo{
+    background-color:#FDFFC9;
+}
+
+.duracion .duracion-texto{
+    /* padding: 5px; */
+    background-color:#EEF0EF;
+}
+
+.evaluacion .permitir{
+    margin-top: 20px;
+    background-color: #D3FFF9;
+}
+
+
+/* ------------------------------------------------- Intervencion ------------------------------------------------- */
+
+.intervencion{
+    margin-bottom: 100px;
+}
+
+.intervencion .titulo{
+    text-align: center;padding: 10px;
+    background-color:#CEDFFF;
+    margin-bottom: 10px;
+}
+
+
+
+.intervencion .card{
+    margin-bottom: 20px;
+}
+
+.intervencion .imagen{
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------------- Capacitacion ------------------------------------------------- */
+
+.capacitacion{
+    margin-bottom: 100px;
+}
+
+.capacitacion .container .titulo{
     text-align: center;
-    color: #FFD626;
+    padding: 10px;
+    background-color:#EFEFEF;
+    margin-bottom:10px;
 }
 
-footer .contacto .contenedor .titulo{
-    margin-bottom: 50px;
+.capacitacion .card{
+    background-color: #F1FFFC;
 }
 
-footer .redes .face:hover{
-    background-color: #3b5998;
+.img-margin{
+    margin-bottom: 20px;
 }
 
-footer .redes .whats:hover{
-    background-color: #25d366
+.diseño{
+    display: flex;
+    align-items: center;
 }
-
-footer .redes .insta:hover{
-    background-color: #e1306c
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

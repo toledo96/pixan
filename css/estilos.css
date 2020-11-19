@@ -23,10 +23,31 @@ header nav .container .navbar-brand img{
     margin-left: -100px;
 }
 
+nav{
+    background-color: #99CED4;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+
 /* -----------------------------------------------fin-navbar--------------------------------------------- */
 
+.inicio .card-inicio{
+    background-color: #dcedc8;
+}
 
+.div1{
+    width: 200px; 
+    height: 50px;
+    background-color: #83d5cf;
+    margin-top: 10px;
+}
 
+.div2{
+    width: 500px; height: 50px;background-color: #ed6c7e; float: right;margin-top: 10px;
+}
 
 /* -------------------------------------------------Nosotros--------------------------------------------- */
 
@@ -262,11 +283,11 @@ footer .contacto .formulario .boton:hover{
 }
 
  .redes .face:hover{
-    background-color: #3b5998;
+    background-color: #ddd9d9;
 }
 
  .redes .whats:hover{
-    background-color: #25d366
+    background-color: #ddd9d9
 }
 
  .redes .insta:hover{
@@ -291,7 +312,7 @@ footer .contacto .formulario .boton:hover{
 
 .footer{
     background-color: #99ced4;   
-    color: white;
+    color: black;
 }
 
 

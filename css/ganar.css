@@ -2,7 +2,30 @@
     .lista{
         text-align: center;
     }
+    header nav .container .navbar-brand .logo{
+        margin-left:0px;
+    }
 }
+
+body{
+    background-color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    /* background: url('../images/flores.png'); */
+}
+
+header nav .container .navbar-brand img{
+    margin-left: -100px;
+}
+
+nav{
+    background-color: #99CED4;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
 
 .svg-wrapper{
     display:block;
@@ -21,6 +44,6 @@
   
   .footer{
       background-color: #99ced4;   
-      color: white;
+      color: black;
   }
   

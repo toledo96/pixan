@@ -10,12 +10,14 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/ganar.css">
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,600&display=swap">
     <script src="js/index.js"></script>
     <title>PIIXAN</title>
     <link rel="icon" href="images/logo3.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 
@@ -25,7 +27,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color: #99CED4;">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img class="logo" src="images/logo4.png" width="100" height="100" alt="">
+                    <img class="logo" style="" src="images/logo4.png" width="100" height="100" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +35,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link" href="/index.html">Inicio
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -53,16 +55,15 @@
         </nav>
     </header>
 
-
     <div class="container">
 
         <div style="text-align: center;padding: 10px;margin-top: 50px;margin-bottom:50px;">   
-            <h2 class="card-title"><b>¿Porqué elegirnos? : sistema ganar - ganar</b></h2>
+            <h2 class="card-title"><b>¿Porqué elegirnos? <br> sistema ganar - ganar</b></h2>
         </div>
         
         <div class="col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
             <div>
-                <img src="images/anastasia-petrova-vh47dI3lwzo-unsplash.jpg"  height="400px" width="100%" alt="">
+                <img src="images/anastasia-petrova-vh47dI3lwzo-unsplash.jpg"  height="400px" width="100%" alt="" data-aos="zoom-out-up">
             </div>
         </div>
 
@@ -82,10 +83,10 @@
 
          <div class="row" style="margin-bottom: 50px;">
             <div class="col-md-6" style="margin-bottom: 50px;">
-                <img src="images/tim-marshall-cAtzHUz7Z8g-unsplash.jpg" height="400px" width="100%" alt="">
+                <img src="images/tim-marshall-cAtzHUz7Z8g-unsplash.jpg" height="400px" width="100%" alt="" data-aos="zoom-out-down">
             </div>
             <div class="col-md-6">
-                <img src="images/hannah-busing-Zyx1bK9mqmA-unsplash.jpg" height="400px" width="100%"  alt="">
+                <img src="images/hannah-busing-Zyx1bK9mqmA-unsplash.jpg" height="400px" width="100%"  alt="" data-aos="zoom-out-right">
             </div>
          </div>
 
@@ -93,13 +94,17 @@
     </div>
 
     <footer>
-        
-        <div class="svg-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
-                <path fill="#99ced4" fill-opacity="1" d="M0,128L30,128C60,128,120,128,180,160C240,192,300,256,360,256C420,256,480,192,540,160C600,128,660,128,720,149.3C780,171,840,213,900,202.7C960,192,1020,128,1080,90.7C1140,53,1200,43,1260,42.7C1320,43,1380,53,1410,58.7L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
-            </svg>
+
+        <div>
+            <div class="svg-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                    <path fill="#99ced4" fill-opacity="1"
+                        d="M0,128L30,128C60,128,120,128,180,160C240,192,300,256,360,256C420,256,480,192,540,160C600,128,660,128,720,149.3C780,171,840,213,900,202.7C960,192,1020,128,1080,90.7C1140,53,1200,43,1260,42.7C1320,43,1380,53,1410,58.7L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
         </div>
-        
+
         <div class="footer">
             <div class="container footer">
                 <div class="row">
@@ -109,18 +114,19 @@
                         <h2>PIIXAN</h2>
                     </div>
                     <div class="col-md-6 caja-footer">
-                       <p><b>CONTACTANOS</b></p>
-                       <p><i class="fa fa-map-marker" aria-hidden="true"></i> PIIXAN, Tuxtla Gutierréz <br> Av. Belisario Dominguez No.330 Colonia José Castillo Tielemans </p>
-                       <p><i class="fa fa-phone" aria-hidden="true"></i> +52 1 961 304 4959 </p>
-                       <p><i class="fa fa-envelope-o" aria-hidden="true"></i> atencionintegralpiixan@gmail.com</p>
-                    </div>
-    
+                        <p><b>CONTACTANOS</b></p>
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> PIIXAN, Tuxtla Gutierréz <br> Calle Belisario Dominguez No.330 Colonia José Castillo Tielemans </p>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> 961 304 4959 </p>
+                        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> atencionintegralpiixan@gmail.com</p>
+                     </div>
+
                 </div>
             </div>
         </div>
 
 
     </footer>
+
 
 
     <!-- Optional JavaScript -->
@@ -134,6 +140,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 </body>
 
 </html>
